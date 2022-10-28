@@ -1,0 +1,15 @@
+html {
+  background-color: #333;
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 470px;
+  background-color: #333;
+}
+
+.title{
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+}

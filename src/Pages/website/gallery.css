@@ -1,0 +1,37 @@
+.gallery-page main{
+  padding: 0 50px 50px;
+}
+
+.gallery-page main section{
+  display: flex;
+  flex-direction: column;
+  max-width: 1980px;
+  margin-bottom: 75px;
+}
+
+.gallery-page main section .title{
+  font-size: 34px;
+  padding-left: 7%;
+  margin-bottom: 15px;
+  color: #fff;
+} 
+
+.gallery-page main section .image-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1150px) {
+  .gallery-page main section .image-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .gallery-page main{
+    padding: 0px;
+  }
+  .gallery-page main section .image-container{
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,21 @@
+.orders-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.orders-page .orders-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.orders-page .orders-container .order{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 50px;
+  padding: 25px;
+  border: 1px solid #f2b449;
+  margin-bottom: 50px;
+}

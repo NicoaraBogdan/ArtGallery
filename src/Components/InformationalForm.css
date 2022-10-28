@@ -1,0 +1,26 @@
+.informational-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2b449;
+    width: 100%;
+    height: 100%;
+}
+
+.informational-form .info-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.informational-form .info-text img{
+    width: 100px;
+}
+
+.informational-form .info-text span{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}

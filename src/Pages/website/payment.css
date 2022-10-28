@@ -1,0 +1,130 @@
+.payment-page{
+    position:'fixed';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    border: none;
+}
+
+.payment-page .view-content{
+    position: relative;
+    width: min(90vw, 1200px);
+    margin-top: 100px;
+    height: 750px;
+}
+
+.payment-page .view-content .view{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+.payment-page .view .left-button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.14);
+    opacity: 1;
+    transition: 0.3s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.payment-page .view .right-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.14);
+    opacity: 1;
+    transition: 0.3s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.payment-page .view .right-button:hover{
+    opacity: 1;
+}
+
+.payment-page .view .left-button:hover{
+    opacity: 1;
+}
+
+.payment-page .view .left-button img{
+    position: absolute;
+    left: -20px;
+    width: 100px;
+    top: calc(50% - 50px);
+    transform: rotateY(180deg);
+}
+
+.payment-page .view .right-button img{
+    position: absolute;
+    right: -20px;
+    width: 100px;
+    top: calc(50%);
+    transform: translateY(-50%);
+}
+
+.payment-page .view-content .bubble-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    left: 50%;
+    height: 30px;
+    width: 200px;
+    transform: translateX(-50%);
+}
+
+.payment-page .view-content .bubble-container .bubble{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.active{
+    background-color: #f2b449;
+}
+
+.payment-page .view .slider{
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.payment-page .view .slider > div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.payment-page .view .slider .title-container{
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    margin-top: 30px;    
+}
+
+.payment-page .view .slider .title-container .title{
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.payment-page .view .slider .title-container .subtitle{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+}

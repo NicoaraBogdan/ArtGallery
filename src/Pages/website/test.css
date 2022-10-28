@@ -1,0 +1,40 @@
+/* .zoom-page{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.zoom-page img{
+    height: 100%;
+    margin: auto;
+    background-position: center;
+    object-fit: cover;
+    cursor: all-scroll;
+    z-index: 2;
+}
+
+.zoom-page .buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.zoom-page .buttons > button{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(182, 181, 181);
+    color: #fff;
+    border-radius: 10px;
+}
+ */

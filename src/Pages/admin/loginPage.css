@@ -1,0 +1,13 @@
+.login-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.login-page span{
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+.contact-page section{
+  padding-top: 150px;
+}
+
+.contact-page main{
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  background-color: #f2b449;
+  width: 60%;
+}
+
+
+.contact-page main .title{
+  font-size: 32px;
+  margin: 25px 0 25px 100px;
+}
+
+.contact-page main > div{
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 50px;
+}
+
+.contact-page main > div  img{
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.contact-page main > div span{
+ font-size: 22px;
+}
+
+@media (max-width: 700px) {
+  .contact-page main{
+    width: 100%;
+  }
+
+  .contact-page main .title{
+    margin-left: 20px;
+  }
+
+  .contact-page main > div{
+    MARGIN-LEFT: 10PX;
+  }
+
+  .contact-page main > div span{
+    font-size: 18px;
+  }
+}

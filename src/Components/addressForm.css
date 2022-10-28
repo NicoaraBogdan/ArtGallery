@@ -1,0 +1,31 @@
+.address-form-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    background-color: #f2b449;
+    border: none;
+}
+
+.address-form-container .input-container-parent{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.address-form-container .input-container-left,
+.address-form-container .input-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.address-form-container .delivery-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
